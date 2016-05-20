@@ -1,0 +1,38 @@
+{
+    "biat": {
+        "url": "http://www.biat.tn/biat/Fr/cours-de-change_66_127",
+        "selector": "/html/body/div[2]/div/div[2]/div[2]/div[2]/table"
+    },
+    "baraka": {
+        "url": "http://www.albarakabank.com.tn/CoursConvertisseurDevise.aspx",
+        "selector": "//*[@id=\"maindefaulttable\"]/tbody/tr[2]/td[2]/table/tbody/tr/td/div/table[1]"
+    },
+    "tijari": {
+        "url": "http://www.attijaribank.com.tn/Fr/Cours_de_change__59_205",
+        "selector": "/html/body/div[3]/div/div[2]/div[1]/table"
+    },
+    "bt": {
+        "url": "http://www.bt.com.tn/change",
+        "selector": "//*[@id=\"devise-table\"]"
+    },
+    "zitouna": {
+        "url": "http://www.banquezitouna.com/Fr/convertisseur-de-devise_64_103",
+        "selector": "/html/body/div[1]/div[2]/div/div[1]/div[8]/div[2]/div[1]/table"
+    },
+    "qnb": {
+        "url": "http://www.qnb.com.tn/en/financial-tools.html?view=financialtools",
+        "selector": "//*[@id=\"currencyRates\"]"
+    },
+    "atb": {
+        "url": "http://www.atb.com.tn/devise",
+        "selector": "//*[@id=\"devises\"]"
+    },
+    "bte": {
+        "url": "http://www.bte.com.tn/?lang=fr&idart=8",
+        "selector": "/html/body/table/tr[3]/td[2]/table/tr[2]/td[2]/table/tr/td[1]/table/tr[3]/td/table/tr[3]/td/table"
+    },
+    "btk": {
+        "url": "http://www.btknet.com/site/fr/convertisseur.php?id_article=33",
+        "selector": "/html/body/table[2]/tr/td[3]/table[2]/tr/td[1]/table//tr/td/table[6]"
+    }
+}
