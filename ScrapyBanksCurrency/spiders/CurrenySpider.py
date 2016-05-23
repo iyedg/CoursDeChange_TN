@@ -26,7 +26,6 @@ class CurrenyspiderSpider(scrapy.Spider):
     start_urls = []
     for bank in bank_names:
         start_urls.append(banks[bank]["url"])
-    start_urls = [banks["btk"]["url"]]
 
     def parse(self, response):
         currency_code = re.compile("[A-Z]{3}")
@@ -50,7 +49,6 @@ class CurrenyspiderSpider(scrapy.Spider):
             inspect_response(response, self)
         for row in rows:
             columns = row.findAll("td")
-            print(len(columns), avg_cols)
             if len(columns) < avg_cols:
                 continue
             item = CurrencyItem()
